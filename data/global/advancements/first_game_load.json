@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "peru.blue_stone:core/first_game_load"
+    "function": "peru.domino_effect:first_game_load"
   }
 }
