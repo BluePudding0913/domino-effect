@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "domino_effect",
+        "description": "",
+        "icon": {
+            "item": "minecraft:ghast_tear",
+            "nbt": "{CustomModelData:217}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:peruzimoone",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

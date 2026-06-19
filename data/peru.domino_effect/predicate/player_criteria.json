@@ -1,0 +1,256 @@
+{
+  "condition": "minecraft:all_of",
+  "entity": "this",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+      "nbt": "{Tags:[\"peru.de.enabled\"]}",
+      "flags": {
+        "is_sneaking": true
+      },
+      "equipment": {
+        "mainhand": {
+          "items": [
+            "minecraft:wooden_pickaxe",
+            "minecraft:stone_pickaxe",
+            "minecraft:iron_pickaxe",
+            "minecraft:golden_pickaxe",
+            "minecraft:diamond_pickaxe",
+            "minecraft:netherite_pickaxe",
+            "minecraft:wooden_axe",
+            "minecraft:stone_axe",
+            "minecraft:iron_axe",
+            "minecraft:golden_axe",
+            "minecraft:diamond_axe",
+            "minecraft:netherite_axe"
+          ]
+        }
+      }
+    }
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_oak": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_spruce": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_birch": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_acacia": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_dark_oak": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_jungle": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_coal": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_iron": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_diamond": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_gold": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_lapis": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_emerald": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_redstone": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_copper": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_nether_quartz": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_nether_gold": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_deepslate_coal": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_deepslate_lapis": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_deepslate_emerald": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_deepslate_redstone": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_deepslate_iron": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_deepslate_diamond": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_deepslate_copper": {
+              "min": 1
+            }
+          }
+        },
+        {
+          "condition": "minecraft:entity_scores",
+          "entity": "this",
+          "scores": {
+            "peru.de.mine_deepslate_gold": {
+              "min": 1
+            }
+          }
+        }
+
+      ]
+    }
+  ]
+}
