@@ -11,8 +11,8 @@ tag @s[tag=peru.de.temp] add peru.de.enabled
 tag @s[tag=peru.de.temp] remove peru.de.temp
 
 
-tellraw @s[tag=peru.de.enabled] "DominoEffect：§aON§f"
-tellraw @s[tag=!peru.de.enabled] "DominoEffect：§cOFF§f"
+tellraw @s[tag=peru.de.enabled] "一括破壊：§aON§f"
+tellraw @s[tag=!peru.de.enabled] "一括破壊：§cOFF§f"
 
 # 4. スコアのリセットと、進捗の剥奪（再利用可能にするため）
 scoreboard players enable @s DOMINO_SWITCH
