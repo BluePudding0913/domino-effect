@@ -12,8 +12,7 @@ scoreboard players add #peru_2 peru.de.tmp 1
 # --- 破壊判定 ---
 # 現在ダメージ >= 最大ダメージ に達したかチェック
 $scoreboard players set #peru_3 peru.de.tmp $(max_damage)
-execute if score #peru_2 peru.de.tmp >= #peru_3 peru.de.tmp run item replace entity @s weapon.mainhand with air
-execute if score #peru_2 peru.de.tmp >= #peru_3 peru.de.tmp run playsound minecraft:entity.item.break player @s ~ ~ ~ 1 1
+execute if score #peru_2 peru.de.tmp >= #peru_3 peru.de.tmp run function peru.domino_effect:tool_break
 execute if score #peru_2 peru.de.tmp >= #peru_3 peru.de.tmp run return 0
 
 # --- アイテムの更新処理へ ---
