@@ -1,0 +1,33 @@
+{
+    "display": {
+        "title": {
+            "text": "peruzimoone"
+        },
+        "description": {
+            "text": "Japanese creator"
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:player_head",
+            "components": {
+                "minecraft:profile": {
+                    "name": "peruzimoone"
+                }
+            }
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+    [
+      "trigger"
+    ]
+    ],
+    "sends_telemetry_event": false
+}

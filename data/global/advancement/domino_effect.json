@@ -1,0 +1,28 @@
+{
+    "display": {
+        "title": {
+            "text": "Domino Effect"
+        },
+        "description": {
+            "text": ""
+        },
+        "icon": {
+            "count": 1,
+            "id": "minecraft:iron_axe"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:peruzimoone",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "requirements": [
+        [
+            "trigger"
+        ]
+    ],
+    "sends_telemetry_event": false
+}
