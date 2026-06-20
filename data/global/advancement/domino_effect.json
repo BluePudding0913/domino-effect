@@ -1,28 +1,38 @@
 {
-    "display": {
-        "title": {
-            "text": "Domino Effect"
-        },
-        "description": {
-            "text": ""
-        },
-        "icon": {
-            "count": 1,
-            "id": "minecraft:iron_axe"
-        },
-        "announce_to_chat": false,
-        "show_toast": false
+  "display": {
+    "title": {
+      "text": "Domino Effect"
     },
-    "parent": "global:peruzimoone",
-    "criteria": {
-        "trigger": {
-            "trigger": "minecraft:tick"
+    "description": {
+      "text": "鉱石、原木を一括破壊することができるようになります。チャット欄で\n",
+      "extra": [
+        {
+          "text": "/trigger DOMINO\n",
+          "color": "#ffac38"
+        },
+        {
+          "text": "と打つことで機能のオン・オフを切り替えられます。"
         }
+      ],
+      "color": "#e6dbdb"
     },
-    "requirements": [
-        [
-            "trigger"
-        ]
-    ],
-    "sends_telemetry_event": false
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_axe"
+    },
+    "announce_to_chat": false,
+    "show_toast": false
+  },
+  "parent": "global:peruzimoone",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "requirements": [
+    [
+      "trigger"
+    ]
+  ],
+  "sends_telemetry_event": false
 }

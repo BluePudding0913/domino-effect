@@ -1,14 +1,13 @@
 
 #機能のON/OFF
-execute as @a if score @s DOMINO_SWITCH matches 1.. run function peru.domino_effect:toggle
+execute as @a if score @s DOMINO matches 1.. run function peru.domino_effect:toggle
 
-# プレイヤーの近くにある生成直後のアイテムの座標へ移動し、グリッドを合わせて探索開始
-execute as @a if predicate peru.domino_effect:player_criteria if predicate peru.domino_effect:pickaxe at @s at @e[type=item,distance=..6,nbt={Age:0s},limit=1,sort=nearest] align xyz run function peru.domino_effect:search {block_tag:"#peru.domino_effect:ores",limit:64}
-execute as @a if predicate peru.domino_effect:player_criteria unless predicate peru.domino_effect:pickaxe at @s at @e[type=item,distance=..6,nbt={Age:0s},limit=1,sort=nearest] align xyz run function peru.domino_effect:search {block_tag:"#minecraft:logs",limit:256}
+
+execute as @a if predicate peru.domino_effect:player_criteria at @s run function peru.domino_effect:lit
 
 #※プレイヤーのスコアをリセットする関数)(tick関数の最後に実行される)
-scoreboard players set @a DOMINO_SWITCH 0
-scoreboard players enable @a DOMINO_SWITCH
+scoreboard players set @a DOMINO 0
+scoreboard players enable @a DOMINO
 scoreboard players reset @a peru.de.chain_count
 scoreboard players reset @a peru.de.mine_diamond
 scoreboard players reset @a peru.de.mine_iron

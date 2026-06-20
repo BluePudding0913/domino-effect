@@ -15,5 +15,5 @@ tellraw @s[tag=peru.de.enabled] "一括破壊：§aON§f"
 tellraw @s[tag=!peru.de.enabled] "一括破壊：§cOFF§f"
 
 # 4. スコアのリセットと、進捗の剥奪（再利用可能にするため）
-scoreboard players enable @s DOMINO_SWITCH
-scoreboard players set @s DOMINO_SWITCH 0
+scoreboard players enable @s DOMINO
+scoreboard players set @s DOMINO 0
