@@ -1,3 +1,4 @@
+#データパックの導入に必要なスコアボードを作成※対象にしたい原木や鉱石の数だけ作成
 scoreboard objectives add peru.de.chain_count dummy
 scoreboard objectives add peru.de.tmp dummy
 scoreboard objectives add DOMINO_SWITCH trigger
@@ -27,6 +28,5 @@ scoreboard objectives add peru.de.mine_deepslate_lapis minecraft.mined:minecraft
 scoreboard objectives add peru.de.mine_deepslate_diamond minecraft.mined:minecraft.deepslate_diamond_ore
 scoreboard objectives add peru.de.mine_deepslate_diamond minecraft.mined:minecraft.ancient_debris
 
-
-function peru.domino_effect:reset_score
-# ※対象にしたい原木や鉱石の数だけ作成します
+#データパックの導入が成功したことを知らせるメッセージ
+tellraw @a [{"text":"DominoEffect", "color":"green"}, {"text":" の導入が成功しました！", "color":"white"}]
