@@ -1,7 +1,7 @@
 # Domino Effect
 A highly optimized, vanilla-friendly chain destruction datapack for Minecraft 26.2.
 
-アイテムコンポーネントとマクロを活用し、1tickでの遅延のない一括破壊を実現しました。
+一括破壊の機能を追加するシンプルなデータパックです。
 
 created by peruzimoone (twitter:https://twitter.com/Ano_0419)
 
