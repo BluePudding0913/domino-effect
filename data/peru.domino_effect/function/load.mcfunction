@@ -8,6 +8,10 @@ scoreboard objectives add peru.de.mine_birch minecraft.mined:minecraft.birch_log
 scoreboard objectives add peru.de.mine_jungle minecraft.mined:minecraft.jungle_log
 scoreboard objectives add peru.de.mine_acacia minecraft.mined:minecraft.acacia_log
 scoreboard objectives add peru.de.mine_dark_oak minecraft.mined:minecraft.dark_oak_log
+scoreboard objectives add peru.de.mine_mangrove minecraft.mined:minecraft.mangrove_log
+scoreboard objectives add peru.de.mine_cherry minecraft.mined:minecraft.cherry_log
+scoreboard objectives add peru.de.mine_pale_oak minecraft.mined:minecraft.pale_oak_log
+
 scoreboard objectives add peru.de.mine_coal minecraft.mined:minecraft.coal_ore
 scoreboard objectives add peru.de.mine_iron minecraft.mined:minecraft.iron_ore
 scoreboard objectives add peru.de.mine_diamond minecraft.mined:minecraft.diamond_ore
