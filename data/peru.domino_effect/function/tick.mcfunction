@@ -19,6 +19,9 @@ scoreboard players reset @a peru.de.mine_birch
 scoreboard players reset @a peru.de.mine_jungle
 scoreboard players reset @a peru.de.mine_acacia
 scoreboard players reset @a peru.de.mine_dark_oak
+scoreboard players reset @a peru.de.mine_mangrove
+scoreboard players reset @a peru.de.mine_cherry
+scoreboard players reset @a peru.de.mine_pale_oak
 scoreboard players reset @a peru.de.mine_coal
 scoreboard players reset @a peru.de.mine_lapis
 scoreboard players reset @a peru.de.mine_emerald
