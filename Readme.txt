@@ -1,9 +1,24 @@
 # Domino Effect
-A highly optimized, vanilla-friendly chain destruction datapack for Minecraft 26.2.
 
-一括破壊の機能を追加するシンプルなデータパックです。
+A highly optimized, vanilla-friendly chain destruction datapack for Minecraft Java Edition 26.2.
 
-created by Ano (twitter:https://twitter.com/Ano_0419)
+Minecraftに一括破壊機能を追加する、シンプルで軽量なデータパックです。
 
-License
-This software is released under the MIT License, see License.txt.
+## Version
+
+**v1.1.0**
+
+## Supported Version
+
+* Minecraft Java Edition 26.2
+
+## Author
+
+Created by **Ano**
+
+* X / Twitter: https://twitter.com/Ano_0419
+
+## License
+
+This software is released under the MIT License.
+See [LICENSE.txt](LICENSE.txt) for details.
