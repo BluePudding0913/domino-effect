@@ -11,6 +11,8 @@ scoreboard objectives add peru.de.mine_dark_oak minecraft.mined:minecraft.dark_o
 scoreboard objectives add peru.de.mine_mangrove minecraft.mined:minecraft.mangrove_log
 scoreboard objectives add peru.de.mine_cherry minecraft.mined:minecraft.cherry_log
 scoreboard objectives add peru.de.mine_pale_oak minecraft.mined:minecraft.pale_oak_log
+scoreboard objectives add peru.de.mine_poplar minecraft.mined:minecraft.poplar_log
+
 
 scoreboard objectives add peru.de.mine_coal minecraft.mined:minecraft.coal_ore
 scoreboard objectives add peru.de.mine_iron minecraft.mined:minecraft.iron_ore
@@ -31,3 +33,4 @@ scoreboard objectives add peru.de.mine_deepslate_emerald minecraft.mined:minecra
 scoreboard objectives add peru.de.mine_deepslate_lapis minecraft.mined:minecraft.deepslate_lapis_ore
 scoreboard objectives add peru.de.mine_deepslate_diamond minecraft.mined:minecraft.deepslate_diamond_ore
 scoreboard objectives add peru.de.mine_deepslate_ancient_debris minecraft.mined:minecraft.ancient_debris
+scoreboard objectives add peru.de.mine_glowstone minecraft.mined:minecraft.glowstone

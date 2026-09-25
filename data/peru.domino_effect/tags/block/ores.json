@@ -19,7 +19,7 @@
     "minecraft:deepslate_redstone_ore",
     "minecraft:deepslate_emerald_ore",
     "minecraft:deepslate_lapis_ore",
-    "minecraft:deepslate_diamond_ore"
-    
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:glowstone"
   ]
 }

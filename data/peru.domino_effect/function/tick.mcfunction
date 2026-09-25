@@ -22,6 +22,7 @@ scoreboard players reset @a peru.de.mine_dark_oak
 scoreboard players reset @a peru.de.mine_mangrove
 scoreboard players reset @a peru.de.mine_cherry
 scoreboard players reset @a peru.de.mine_pale_oak
+scoreboard players reset @a peru.de.mine_poplar
 scoreboard players reset @a peru.de.mine_coal
 scoreboard players reset @a peru.de.mine_lapis
 scoreboard players reset @a peru.de.mine_emerald
@@ -36,3 +37,5 @@ scoreboard players reset @a peru.de.mine_deepslate_redstone
 scoreboard players reset @a peru.de.mine_deepslate_emerald
 scoreboard players reset @a peru.de.mine_deepslate_lapis
 scoreboard players reset @a peru.de.mine_deepslate_diamond
+scoreboard players reset @a peru.de.mine_deepslate_ancient_debris
+scoreboard players reset @a peru.de.mine_glowstone

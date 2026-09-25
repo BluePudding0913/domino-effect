@@ -1,12 +1,12 @@
 # Domino Effect
-**v1.1.1**
+**v1.2.0**
 
 A highly optimized, vanilla-friendly chain destruction datapack for Minecraft Java Edition.
 Minecraftに一括破壊機能を追加する、シンプルで軽量なデータパックです。
 
 ## Supported Version
 
-* Minecraft Java Edition 26.2
+* Minecraft Java Edition 26.3
 
 ## Author
 

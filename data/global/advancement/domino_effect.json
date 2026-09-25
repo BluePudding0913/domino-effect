@@ -23,7 +23,7 @@
     "announce_to_chat": false,
     "show_toast": false
   },
-  "parent": "global:peruzimoone",
+  "parent": "global:ano",
   "criteria": {
     "trigger": {
       "trigger": "minecraft:tick"
